@@ -9,13 +9,15 @@
 //
 //
 // Meu Nome é Diogo Pinheiro
-import Foundation
+import SpriteKit
 
 
 class Enemy {
     
     var HP:Int?
-    var Nome:String?
+    var Nome:String = "Robson Cruzue Em Fraces!"
+    
+    //print("O robson eh burro.... \(Nome)")
     
   
 }
