@@ -17,7 +17,7 @@ class Enemy {
     var HP:Int?
     var Nome:String = "Robson Cruzue Em Fraces!"
     
-   // print("O robson eh burro.... \(Nome)")
+   // print("O robson eh.... \(Nome)")
     
   // diogo faz funcionar o for pros enemies 
     
