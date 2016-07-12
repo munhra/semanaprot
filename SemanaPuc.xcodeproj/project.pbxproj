@@ -18,6 +18,7 @@
 		B24D80551D34113100889E49 /* FavoritesTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24D80541D34113100889E49 /* FavoritesTabViewController.swift */; };
 		B24D80571D34115F00889E49 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24D80561D34115F00889E49 /* FavoritesViewController.swift */; };
 		B24D80591D34118300889E49 /* Favorites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24D80581D34118300889E49 /* Favorites.storyboard */; };
+		B24D80611D3557D200889E49 /* EventsFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24D80601D3557D200889E49 /* EventsFake.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		B24D80541D34113100889E49 /* FavoritesTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesTabViewController.swift; sourceTree = "<group>"; };
 		B24D80561D34115F00889E49 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		B24D80581D34118300889E49 /* Favorites.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Favorites.storyboard; sourceTree = "<group>"; };
+		B24D80601D3557D200889E49 /* EventsFake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsFake.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				B24D804C1D340B3B00889E49 /* ActivityViewController.swift */,
 				B24D804E1D340CF400889E49 /* ActivityTabViewController.swift */,
 				B24D80541D34113100889E49 /* FavoritesTabViewController.swift */,
+				B24D80601D3557D200889E49 /* EventsFake.swift */,
 				B24D80561D34115F00889E49 /* FavoritesViewController.swift */,
 			);
 			name = controllers;
@@ -177,6 +180,7 @@
 				B24D804D1D340B3B00889E49 /* ActivityViewController.swift in Sources */,
 				B24D80571D34115F00889E49 /* FavoritesViewController.swift in Sources */,
 				B24D803B1D34065E00889E49 /* AppDelegate.swift in Sources */,
+				B24D80611D3557D200889E49 /* EventsFake.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +330,7 @@
 				B24D804B1D34065E00889E49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
