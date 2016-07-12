@@ -19,5 +19,7 @@ class Enemy {
     
     //print("O robson eh burro.... \(Nome)")
     
-  
+  // diogo faz funcionar o for pros enemies 
+    
+    
 }
