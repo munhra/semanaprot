@@ -9,7 +9,7 @@
 //
 //
 // Meu Nome é Diogo Pinheiro
-import SpriteKit
+import Foundation
 
 
 class Enemy {
@@ -17,9 +17,9 @@ class Enemy {
     var HP:Int?
     var Nome:String = "Robson Cruzue Em Fraces!"
     
-    //print("O robson eh burro.... \(Nome)")
+   // print("O robson eh burro.... \(Nome)")
     
   // diogo faz funcionar o for pros enemies 
     
-    
+    // NAO CONSEGUI DIRGURPA VEISH
 }
