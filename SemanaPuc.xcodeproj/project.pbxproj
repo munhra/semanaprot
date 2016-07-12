@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7F6EF7FD1D3557A000998356 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6EF7FC1D3557A000998356 /* Events.swift */; };
+		7FE027FC1D3577C800D006F1 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE027FB1D3577C800D006F1 /* Enemy.swift */; };
 		B24D803B1D34065E00889E49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24D803A1D34065E00889E49 /* AppDelegate.swift */; };
 		B24D803D1D34065E00889E49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24D803C1D34065E00889E49 /* ViewController.swift */; };
 		B24D80401D34065E00889E49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24D803E1D34065E00889E49 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		7F6EF7FC1D3557A000998356 /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		7FE027FB1D3577C800D006F1 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
 		B24D80371D34065E00889E49 /* SemanaPuc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SemanaPuc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B24D803A1D34065E00889E49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B24D803C1D34065E00889E49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				B24D80601D3557D200889E49 /* EventsFake.swift */,
 				B24D80561D34115F00889E49 /* FavoritesViewController.swift */,
 				7F6EF7FC1D3557A000998356 /* Events.swift */,
+				7FE027FB1D3577C800D006F1 /* Enemy.swift */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				B24D804F1D340CF400889E49 /* ActivityTabViewController.swift in Sources */,
 				B24D804D1D340B3B00889E49 /* ActivityViewController.swift in Sources */,
 				7F6EF7FD1D3557A000998356 /* Events.swift in Sources */,
+				7FE027FC1D3577C800D006F1 /* Enemy.swift in Sources */,
 				B24D80571D34115F00889E49 /* FavoritesViewController.swift in Sources */,
 				B24D803B1D34065E00889E49 /* AppDelegate.swift in Sources */,
 				B24D80611D3557D200889E49 /* EventsFake.swift in Sources */,
