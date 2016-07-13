@@ -24,4 +24,6 @@ class Enemy {
     // NAO CONSEGUI DIRGURPA VEISH
     
     // tudo bem diogo depois vc consegue
+    
+    // vai que nao ia dar
 }
