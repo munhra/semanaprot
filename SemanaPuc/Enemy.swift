@@ -22,4 +22,6 @@ class Enemy {
   // diogo faz funcionar o for pros enemies 
     
     // NAO CONSEGUI DIRGURPA VEISH
+    
+    // tudo bem diogo depois vc consegue
 }
