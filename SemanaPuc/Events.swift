@@ -16,6 +16,8 @@
 import Foundation
 
 class Events {
-     // Deu ruim
+    
+    var eventTitle = ""
+    var eventHour = ""
     
 }
