@@ -26,4 +26,6 @@ class Enemy {
     // tudo bem diogo depois vc consegue
     
     // vai que nao ia dar
+    
+    // quero bugar
 }
