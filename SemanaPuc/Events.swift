@@ -13,6 +13,7 @@ class Events {
     
     var eventTitle:String?
     var eventHour:String?
+    var eventDescription:String?
     
    
     
