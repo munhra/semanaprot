@@ -17,6 +17,7 @@ class EventsDAO
     var eventDictionary = [String:[Events]?]()
     var eventList = Array<Events>()
     var eventListSorted = Array<Events>()
+    
    
     
     func inOrder() -> [String]{
@@ -27,23 +28,20 @@ class EventsDAO
     func generateFakeEvents() -> [String:[Events]?] {
         
         let hours = ["09:00","11:00","12:00","13:00"]
-        var eventName = ["Dojo","Degustacao","Useless","Teste","Teste2","Teste3","Teste4","Teste5","Teste6","Teste7","Teste8","Teste9","Teste10","Teste11","Teste12","Teste13","Teste14","Teste15","Teste16","Teste17"]
-     
-      
-        var b:Int = 20
+        var eventName = ["SAP","CSS","IOT","CS","Design Thinking","KSPG"]
+        var eventDescription = ["Palestra de Sap","Palestra de CSS","Palestra de IOT",
+            "Campeonato de CS","Palestra de design thinking","Palestra de KSPG"]
         
-        
-        for _ in 0...19 {
-            let randomIndexHours = random() % 4
-            let randomIndexPalestra = random() % b
+        for _ in 0...20 {
+            let n = Int(arc4random_uniform(5))
             let event = Events()
-            event.eventTitle = eventName[randomIndexPalestra]
-            event.eventHour = hours[randomIndexHours]
-        
+            event.eventTitle = eventName[n]
+            event.eventHour = hours[Int(arc4random_uniform(3))]
+            event.eventDescription = eventDescription[n]
             eventList.append(event)
-            eventName.removeAtIndex(randomIndexPalestra)
-            b--
-         
+           // eventName.removeAtIndex(index)
+           // index--
+            
         }
         
         eventListSorted = eventList.sort( {$0.eventHour < $1.eventHour} )
