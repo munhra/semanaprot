@@ -43,10 +43,10 @@
             </objects>
             <point key="canvasLocation" x="-1370" y="1396"/>
         </scene>
-        <!--Item-->
+        <!--Information-->
         <scene sceneID="UKk-KH-Qzj">
             <objects>
-                <viewController id="mF2-kP-9yJ" sceneMemberID="viewController">
+                <viewController id="mF2-kP-9yJ" customClass="InformationTabViewController" customModule="SemanaPuc" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Nrb-2W-me9"/>
                         <viewControllerLayoutGuide type="bottom" id="gha-b8-yD5"/>
@@ -56,13 +56,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="DkS-Jc-d1G"/>
+                    <tabBarItem key="tabBarItem" title="Information" id="DkS-Jc-d1G"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yUq-me-wJ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="128" y="564"/>
         </scene>
-        <!--Item 1-->
+        <!--Map-->
         <scene sceneID="3Or-oL-Bld">
             <objects>
                 <viewController id="vvx-Ca-crx" sceneMemberID="viewController">
@@ -75,7 +75,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="tyb-Ci-CeC"/>
+                    <tabBarItem key="tabBarItem" title="Map" id="tyb-Ci-CeC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XKB-HD-40g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
