@@ -10,6 +10,7 @@ import UIKit
 
 class ActivityViewController: UIViewController,UITableViewDataSource {
     
+    @IBOutlet weak var tableView: UITableView!
     
     var schedule = [String:[Events]?]()
     var lista = [String]()
@@ -53,7 +54,18 @@ class ActivityViewController: UIViewController,UITableViewDataSource {
         return (schedule[key]?!.count)!
     }
     
-    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let selectIndexPath = tableView.indexPathForSelectedRow
+        let eventDetailsViewController = segue.destinationViewController as? ActivityDetailsViewController
+        
+        let keys = Array(schedule.keys)
+        
+        let hourKey = keys[selectIndexPath!.section]
+        
+        eventDetailsViewController?.event = schedule[hourKey]!![selectIndexPath!.row]
+        
+        
+    }
     
     
     

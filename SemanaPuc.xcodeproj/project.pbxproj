@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7F305C681D36B8C3004A6963 /* EventsDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F305C671D36B8C3004A6963 /* EventsDAO.swift */; };
 		7F6EF7FD1D3557A000998356 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6EF7FC1D3557A000998356 /* Events.swift */; };
+		7FE26F6F1D39646B004B6759 /* ActivityDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE26F6E1D39646B004B6759 /* ActivityDetailsViewController.swift */; };
 		B24D803B1D34065E00889E49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24D803A1D34065E00889E49 /* AppDelegate.swift */; };
 		B24D803D1D34065E00889E49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24D803C1D34065E00889E49 /* ViewController.swift */; };
 		B24D80401D34065E00889E49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24D803E1D34065E00889E49 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		7F305C671D36B8C3004A6963 /* EventsDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsDAO.swift; sourceTree = "<group>"; };
 		7F6EF7FC1D3557A000998356 /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		7FE26F6E1D39646B004B6759 /* ActivityDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityDetailsViewController.swift; sourceTree = "<group>"; };
 		B24D80371D34065E00889E49 /* SemanaPuc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SemanaPuc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B24D803A1D34065E00889E49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B24D803C1D34065E00889E49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				B24D80541D34113100889E49 /* FavoritesTabViewController.swift */,
 				B24D80601D3557D200889E49 /* EventsFake.swift */,
 				B24D80561D34115F00889E49 /* FavoritesViewController.swift */,
+				7FE26F6E1D39646B004B6759 /* ActivityDetailsViewController.swift */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FE26F6F1D39646B004B6759 /* ActivityDetailsViewController.swift in Sources */,
 				B24D803D1D34065E00889E49 /* ViewController.swift in Sources */,
 				7F305C681D36B8C3004A6963 /* EventsDAO.swift in Sources */,
 				B24D80551D34113100889E49 /* FavoritesTabViewController.swift in Sources */,
